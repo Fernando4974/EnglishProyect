@@ -97,5 +97,17 @@
   <ItemGroup>
     <None Include="bin\Debug\img\plantilla-fondo-geometrico-abstracto-degradado_561513-11.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\back_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\back_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\back_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\back_5.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

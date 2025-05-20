@@ -38,6 +38,8 @@ namespace EnglishProyect.view
         private void Form2_Load(object sender, EventArgs e)
         {
             this.panel1.BackgroundImage = Image.FromFile(rutaImagen);
+            this.label1.BackColor = Color.Transparent;
+            this.lblTextInstructions.BackColor= Color.Transparent;
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -38,8 +38,9 @@
             // 
             // btnPlay
             // 
-            this.btnPlay.BackColor = System.Drawing.Color.Crimson;
+            this.btnPlay.BackColor = System.Drawing.Color.Black;
             this.btnPlay.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPlay.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnPlay.Location = new System.Drawing.Point(787, 358);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(418, 55);
