@@ -47,7 +47,12 @@ namespace EnglishProyect.view
             //luego del evento cambiamos indice a true
             this.indice = true;
             //el contador valida luego suma o resta
-            contadorBotones(indice);
+            if (contadorBotones(indice) > 1) {
+
+
+                this.btnStart.Visible = true;
+            }
+            
             //asignamos el texto
             this.lblTextInstructions.Text = texto.textosInstruciones[cont] ;
             string rutaImagen = Path.Combine(Application.StartupPath, "img", $"img{cont.ToString()}.png");
@@ -109,6 +114,11 @@ namespace EnglishProyect.view
             this.panel1.BackgroundImage = Image.FromFile(rutaImagen);
         }
 
-      
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            Form form3 = new view.Form3();
+            form3.Show();
+            this.Close();
+        }
     }
 }

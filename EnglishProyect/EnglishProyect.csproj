@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="model\FormB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="model\FormB.Designer.cs">
+      <DependentUpon>FormB.cs</DependentUpon>
+    </Compile>
     <Compile Include="model\Texts.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -66,6 +72,39 @@
     <Compile Include="view\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="model\FormA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="model\FormA.resx">
+      <DependentUpon>FormA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="model\FormB.resx">
+      <DependentUpon>FormB.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -76,6 +115,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="view\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -91,7 +142,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="content\img\" />
     <Folder Include="controller\" />
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +158,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\img\back_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\img0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\img\back_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\sound\ruta1.wav" />
+    <Content Include="sound\ruta1.wav" />
+    <None Include="bin\Debug\img\bocina1.jpg" />
+    <None Include="bin\Debug\img\bocina.jpg" />
+    <Content Include="bin\Debug\img\despertar.jpeg" />
+    <Content Include="content\img\despertar.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
