@@ -40,13 +40,28 @@
             this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
+            // botonComunChange
+            // 
+            this.botonComunChange.Location = new System.Drawing.Point(43, 897);
+            this.botonComunChange.Size = new System.Drawing.Size(443, 86);
+            // 
             // botonComun
             // 
+            this.botonComun.Location = new System.Drawing.Point(507, 897);
+            this.botonComun.Margin = new System.Windows.Forms.Padding(4);
+            this.botonComun.Size = new System.Drawing.Size(443, 86);
             this.botonComun.Click += new System.EventHandler(this.botonComun_Click);
+            // 
+            // etiquetaComun
+            // 
+            this.etiquetaComun.Location = new System.Drawing.Point(13, 12);
+            this.etiquetaComun.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(691, 276);
+            this.etiquetaContexto.Location = new System.Drawing.Point(13, 123);
+            this.etiquetaContexto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.etiquetaContexto.Size = new System.Drawing.Size(858, 348);
             this.etiquetaContexto.Text = "Good morning!\r\nYour alarm is ringing, and it’s already\r\n7:00 AM. You need to get " +
     "ready \r\nfor your day. Complete the sentence\r\nbelow using the present continuous\r" +
     "\n tense to describe what you are doing";
@@ -55,6 +70,9 @@
             // 
             this.panel.BackgroundImage = global::EnglishProyect.Properties.Resources.despertar;
             this.panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel.Location = new System.Drawing.Point(973, 0);
+            this.panel.Margin = new System.Windows.Forms.Padding(4);
+            this.panel.Size = new System.Drawing.Size(1027, 1031);
             // 
             // comboBox1
             // 
@@ -64,10 +82,10 @@
             "am get",
             "am getting",
             "get"});
-            this.comboBox1.Location = new System.Drawing.Point(59, 413);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Location = new System.Drawing.Point(79, 508);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(125, 36);
+            this.comboBox1.Size = new System.Drawing.Size(165, 41);
             this.comboBox1.TabIndex = 1;
             // 
             // comboBox2
@@ -78,10 +96,10 @@
             "is beging",
             "is",
             "be"});
-            this.comboBox2.Location = new System.Drawing.Point(59, 468);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox2.Location = new System.Drawing.Point(79, 576);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(116, 36);
+            this.comboBox2.Size = new System.Drawing.Size(153, 41);
             this.comboBox2.TabIndex = 2;
             // 
             // comboBox3
@@ -92,20 +110,19 @@
             "snooze",
             "am snoozing",
             "snoozing"});
-            this.comboBox3.Location = new System.Drawing.Point(399, 465);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox3.Location = new System.Drawing.Point(532, 572);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(117, 36);
+            this.comboBox3.Size = new System.Drawing.Size(155, 41);
             this.comboBox3.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 414);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(20, 510);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 29);
+            this.label1.Size = new System.Drawing.Size(26, 37);
             this.label1.TabIndex = 4;
             this.label1.Text = "I";
             // 
@@ -113,10 +130,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(197, 414);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(263, 510);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 29);
+            this.label2.Size = new System.Drawing.Size(131, 37);
             this.label2.TabIndex = 5;
             this.label2.Text = "up now,";
             // 
@@ -124,10 +140,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(15, 469);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(20, 577);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 29);
+            this.label3.Size = new System.Drawing.Size(42, 37);
             this.label3.TabIndex = 6;
             this.label3.Text = "It";
             // 
@@ -135,10 +150,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(530, 463);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(707, 570);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(124, 29);
+            this.label4.Size = new System.Drawing.Size(155, 37);
             this.label4.TabIndex = 7;
             this.label4.Text = "the alarm";
             // 
@@ -146,10 +160,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(197, 466);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(263, 574);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(119, 29);
+            this.label5.Size = new System.Drawing.Size(149, 37);
             this.label5.TabIndex = 8;
             this.label5.Text = "7 o\'clock.";
             // 
@@ -157,31 +170,29 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(333, 465);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(444, 572);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 29);
+            this.label6.Size = new System.Drawing.Size(62, 37);
             this.label6.TabIndex = 9;
-            this.label6.Text = "If i";
+            this.label6.Text = "If I";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(15, 522);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(20, 642);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(325, 29);
+            this.label7.Size = new System.Drawing.Size(407, 37);
             this.label7.TabIndex = 10;
             this.label7.Text = "I might not wake up later.";
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1426, 839);
+            this.ClientSize = new System.Drawing.Size(1901, 1033);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -192,10 +203,11 @@
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form4";
             this.Text = "Form4";
             this.Load += new System.EventHandler(this.Form4_Load);
+            this.Controls.SetChildIndex(this.botonComunChange, 0);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);
             this.Controls.SetChildIndex(this.comboBox1, 0);

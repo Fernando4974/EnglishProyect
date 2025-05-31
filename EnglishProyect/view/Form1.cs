@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,7 @@ namespace EnglishProyect
             this.lblTittle.BackColor = Color.Transparent;
             this.label1.BackColor = Color.Transparent;
             this.label2.BackColor = Color.Transparent;
+            
         }
 
         private void btnPlay_Click(object sender, EventArgs e)

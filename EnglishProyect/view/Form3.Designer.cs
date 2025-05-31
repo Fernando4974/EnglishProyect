@@ -54,9 +54,9 @@
             this.lblStage1.ForeColor = System.Drawing.SystemColors.Control;
             this.lblStage1.Location = new System.Drawing.Point(57, 18);
             this.lblStage1.Name = "lblStage1";
-            this.lblStage1.Size = new System.Drawing.Size(753, 79);
+            this.lblStage1.Size = new System.Drawing.Size(663, 79);
             this.lblStage1.TabIndex = 1;
-            this.lblStage1.Text = "Stage 1: Present Simple.";
+            this.lblStage1.Text = "Stage 1: Past Simple.";
             // 
             // lblQuery
             // 
@@ -65,7 +65,7 @@
             this.lblQuery.ForeColor = System.Drawing.SystemColors.Control;
             this.lblQuery.Location = new System.Drawing.Point(63, 132);
             this.lblQuery.Name = "lblQuery";
-            this.lblQuery.Size = new System.Drawing.Size(708, 180);
+            this.lblQuery.Size = new System.Drawing.Size(679, 176);
             this.lblQuery.TabIndex = 2;
             this.lblQuery.Text = "\"Last night you set your alarm to go off \r\nat seven in the morning\".\r\n\r\nSelect th" +
     "e action you performed:";

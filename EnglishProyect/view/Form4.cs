@@ -22,7 +22,7 @@ namespace EnglishProyect.view
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            etiquetaComun.Text += text.textosStagesContextos[1];
+            etiquetaComun.Text ="Stage: "+ text.textosStagesContextos[1];
         }
 
        
@@ -31,6 +31,7 @@ namespace EnglishProyect.view
         {
             Form form5 = new Form5();
             form5.Show();
+            this.Close();
         }
     }
 }

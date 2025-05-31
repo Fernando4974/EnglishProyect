@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EnglishProyect.model;
 
 namespace EnglishProyect.view
 {
@@ -16,18 +17,21 @@ namespace EnglishProyect.view
         public Form5()
         {
             InitializeComponent();
+            //this.Load += Form5_Load;
         }
 
         private void Form5_Load(object sender, EventArgs e)
         {
-
+            model.Texts objModel = new model.Texts();
+            etiquetaComun.Text += objModel.textosStagesContextos[3];
         }
         private void botonComun_Click(object sender, EventArgs e)
         {
             try
             {
-                Form form6 = new Form6();
+                FormA form6 = new Form6();
                 form6.Show();
+                this.Close();
             }
             catch (Exception ex)
             {

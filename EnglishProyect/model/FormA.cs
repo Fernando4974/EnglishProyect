@@ -8,15 +8,21 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Diagnostics;
 using System.Media;
+using EnglishProyect.model;
 
 namespace EnglishProyect.view
 {
     public class FormA : Form
     {
+         
+
+        protected Button botonComunChange;
         protected Button botonComun;
         protected Label etiquetaComun;
         protected Label etiquetaContexto;
         protected Panel panel;
+
+   
 
         static string ruta1 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
         SoundPlayer SoundPlayer_1= new SoundPlayer(ruta1);
@@ -26,9 +32,10 @@ namespace EnglishProyect.view
         SoundPlayer SoundPlayer_3 = new SoundPlayer(ruta1);
         public FormA()
         {
-           //string ruta = Path.Combine(Application.StartupPath, "img", "back_5.jpg");
-            //this.BackgroundImage = Image.FromFile(ruta);
-            this.Size = new System.Drawing.Size(1442, 878);
+          
+            string ruta = Path.Combine(Application.StartupPath, "img", "back_5.jpg");
+            this.BackgroundImage = Image.FromFile(ruta);
+            this.Size = new System.Drawing.Size(1919, 1080);
             this.WindowState = FormWindowState.Maximized;
             this.StartPosition = FormStartPosition.CenterScreen;
             // Fondo común
@@ -42,6 +49,15 @@ namespace EnglishProyect.view
             botonComun.Size = new System.Drawing.Size(332, 70);
             botonComun.Location = new Point(380, 729 );
             this.Controls.Add(botonComun);
+
+            // Botón común change
+            botonComunChange = new Button();
+            botonComunChange.Font = new Font("MV Boli", 26, FontStyle.Bold | FontStyle.Italic);
+            botonComunChange.Text = "Change anwser";
+            botonComunChange.BackColor = Color.DarkRed;
+            botonComunChange.Size = new System.Drawing.Size(332, 70);
+            botonComunChange.Location = new Point(38, 729);
+            this.Controls.Add(botonComunChange);
 
             // Label stage
             etiquetaComun = new Label();
@@ -71,28 +87,36 @@ namespace EnglishProyect.view
             panel.Size= new Size(770,838);
             this.Controls.Add(panel);
         }
+                    
+        //public void botonComun_Click() {
 
+
+        //    this.Close();
+        //}
         private void InitializeComponent()
         {
             this.SuspendLayout();
             // 
             // FormA
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "FormA";
-            this.Load += new System.EventHandler(this.FormA_Load);
+            this.Load += new System.EventHandler(this.FormA_Load_1);
             this.ResumeLayout(false);
 
         }
 
         private void FormA_Load(object sender, EventArgs e)
         {
-
+         
         }
 
 
         public void PlayBtn1()
         {
+            this.Load += new System.EventHandler(this.FormA_Load);
+            this.ResumeLayout(false);
             SoundPlayer_1.Play();
         }
         public void PlayBtn2()
@@ -102,6 +126,11 @@ namespace EnglishProyect.view
         public void PlayBtn3()
         {
             SoundPlayer_3.Play();
+        }
+
+        private void FormA_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

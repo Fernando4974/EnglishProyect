@@ -1,5 +1,4 @@
-﻿using EnglishProyect.model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,26 +10,27 @@ using System.Windows.Forms;
 
 namespace EnglishProyect.view
 {
-    public partial class Form6 : FormA
+    public partial class Form7 : FormA
     {
-        Texts text = new Texts();
-        public Form6()
+        public Form7()
         {
             InitializeComponent();
-            //this.Load+=Form6_Load;
         }
 
-        private void Form6_Load(object sender, EventArgs e)
+        private void Form7_Load(object sender, EventArgs e)
         {
-            etiquetaComun.Text += text.textosStagesContextos[2];
-            
+
         }
 
         private void botonComun_Click(object sender, EventArgs e)
         {
-            FormA form7 = new Form7();
-            form7.Show();
-            this.Close();
+            FormA form8 = new Form8();
+            form8.Show();
+            this.Close();   
+        }
+
+        private void botonComunChange_Click(object sender, EventArgs e)
+        {
 
         }
     }
