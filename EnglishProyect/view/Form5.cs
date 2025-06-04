@@ -25,6 +25,9 @@ namespace EnglishProyect.view
         {
             model.Texts objModel = new model.Texts();
             etiquetaComun.Text += "3"+objModel.textosStagesContextos[3];
+            //aca puedes ver los resultados
+            controller.CapturaDeRespuestas r = new CapturaDeRespuestas();
+            etiquetaContexto.Text += r.mostrarR();
         }
         private void botonComun_Click(object sender, EventArgs e)
         {
@@ -47,7 +50,7 @@ namespace EnglishProyect.view
 
         private void etiquetaContexto_Click(object sender, EventArgs e)
         {
-            etiquetaComun.Text+= CapturaDeRespuestas.respuestas;
+            
         }
     }
 }

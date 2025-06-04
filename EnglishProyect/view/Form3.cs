@@ -29,7 +29,8 @@ namespace EnglishProyect.view
         private void btnNextQuery_Click(object sender, EventArgs e)
         {
 
-            CapturaDeRespuestas.respuestas.Add(respuesta);
+            controller.CapturaDeRespuestas r = new CapturaDeRespuestas();
+            r.resultados(respuesta);
             Form form4 = new Form4();
             form4.Show();
             this.Close();
