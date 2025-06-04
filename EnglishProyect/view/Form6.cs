@@ -22,7 +22,7 @@ namespace EnglishProyect.view
 
         private void Form6_Load(object sender, EventArgs e)
         {
-            etiquetaComun.Text += text.textosStagesContextos[2];
+            etiquetaComun.Text += "4"+text.textosStagesContextos[2];
             
         }
 

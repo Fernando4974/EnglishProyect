@@ -7,10 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EnglishProyect.model;
+
 
 namespace EnglishProyect.view
 {
-    public partial class Form17 : FormA
+    public partial class Form17 : FormE
     {
         public Form17()
         {
@@ -22,11 +24,13 @@ namespace EnglishProyect.view
 
         }
 
-        private void botonComun_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            FormA fomrNew = new Form18();
-            fomrNew.Show();
+            FormE form = new Form18();
+            form.Show();
             this.Close();
         }
+
+       
     }
 }

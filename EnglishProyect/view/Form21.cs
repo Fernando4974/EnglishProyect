@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace EnglishProyect.view
 {
-    public partial class Form21 : FormA
+    public partial class Form21 : Form
     {
         public Form21()
         {
             InitializeComponent();
-        }
-
-        private void Form21_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

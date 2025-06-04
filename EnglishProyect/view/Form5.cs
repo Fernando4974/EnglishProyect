@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EnglishProyect.controller;
 using EnglishProyect.model;
 
 namespace EnglishProyect.view
@@ -23,7 +24,7 @@ namespace EnglishProyect.view
         private void Form5_Load(object sender, EventArgs e)
         {
             model.Texts objModel = new model.Texts();
-            etiquetaComun.Text += objModel.textosStagesContextos[3];
+            etiquetaComun.Text += "3"+objModel.textosStagesContextos[3];
         }
         private void botonComun_Click(object sender, EventArgs e)
         {
@@ -42,6 +43,11 @@ namespace EnglishProyect.view
         private void button1_Click(object sender, EventArgs e)
         {
             PlayBtn1();
+        }
+
+        private void etiquetaContexto_Click(object sender, EventArgs e)
+        {
+            etiquetaComun.Text+= CapturaDeRespuestas.respuestas;
         }
     }
 }
