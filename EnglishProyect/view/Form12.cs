@@ -19,7 +19,8 @@ namespace EnglishProyect.view
 
         private void Form12_Load(object sender, EventArgs e)
         {
-
+            model.Texts text = new model.Texts();
+            etiquetaComun.Text += "10" + text.textosStagesContextos[1];
         }
 
         private void botonComun_Click(object sender, EventArgs e)

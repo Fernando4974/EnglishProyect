@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EnglishProyect.model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace EnglishProyect.view
 {
-    public partial class Form19 : FormA
+    public partial class Form19 : FormE
     {
         public Form19()
         {
@@ -22,11 +23,11 @@ namespace EnglishProyect.view
 
         }
 
-        private void botonComun_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            FormA fomrNew = new Form20();
-            fomrNew.Show();
-            this.Close();
+            FormE from = new Form20();
+            from.Show();
+            this.Close();   
         }
     }
 }

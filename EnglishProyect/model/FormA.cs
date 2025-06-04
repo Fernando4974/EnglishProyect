@@ -9,12 +9,14 @@ using System.IO;
 using System.Diagnostics;
 using System.Media;
 using EnglishProyect.model;
+using System.ComponentModel;
 
 namespace EnglishProyect.view
 {
     public class FormA : Form
     {
-         
+
+       static controller.CapturaDeRespuestas capturaGlobal = new controller.CapturaDeRespuestas();
 
         protected Button botonComunChange;
         protected Button botonComun;
@@ -33,8 +35,8 @@ namespace EnglishProyect.view
         public FormA()
         {
           
-            string ruta = Path.Combine(Application.StartupPath, "img", "back_5.jpg");
-            this.BackgroundImage = Image.FromFile(ruta);
+           // string ruta = Path.Combine(Application.StartupPath, "img", "back_5.jpg");
+            //this.BackgroundImage = Image.FromFile(ruta);
             this.Size = new System.Drawing.Size(1919, 1080);
             this.WindowState = FormWindowState.Maximized;
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -93,8 +95,17 @@ namespace EnglishProyect.view
 
         //    this.Close();
         //}
+       
+            
+        
         private void InitializeComponent()
         {
+
+           
+               // string ruta = Path.Combine(Application.StartupPath, "img", "back_5.jpg");
+                //this.BackgroundImage = Image.FromFile(ruta);
+                this.BackgroundImageLayout= ImageLayout.Stretch;
+            
             this.SuspendLayout();
             // 
             // FormA
