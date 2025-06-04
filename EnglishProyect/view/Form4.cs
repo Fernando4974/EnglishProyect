@@ -25,6 +25,7 @@ namespace EnglishProyect.view
         private void Form4_Load(object sender, EventArgs e)
         {
             etiquetaComun.Text ="Stage: 2"+ text.textosStagesContextos[1];
+            botonComun.Visible=false;
         }
 
        
@@ -34,9 +35,9 @@ namespace EnglishProyect.view
             //aca validas textos
             bool respuesta= false;
             string r1 =  this.comboBox1.Text.ToLower();
-            string r2 = this.comboBox1.Text.ToLower();
-            string r3 = this.comboBox1.Text.ToLower();
-            if (r1=="am get" && r2=="" && r3=="")
+            string r2 = this.comboBox2.Text.ToLower();
+           // string r3 = this.comboBox1.Text.ToLower();
+            if (r1=="is ringing" && r2=="am waking" )
             {
                 respuesta = true;
             }
@@ -51,7 +52,19 @@ namespace EnglishProyect.view
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            this.botonComun.Visible = true;
+        }
 
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.botonComun.Visible = true;
+        }
+
+        private void botonComunChange_Click(object sender, EventArgs e)
+        {
+            comboBox1.ResetText();
+            comboBox2.ResetText();
+            botonComun.Visible =false;
         }
     }
 }

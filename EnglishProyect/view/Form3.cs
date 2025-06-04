@@ -24,6 +24,8 @@ namespace EnglishProyect.view
         {
             this.lblStage1.BackColor = Color.Transparent;
             this.lblQuery.BackColor = Color.Transparent;
+            btnNextQuery.Visible = false;
+            btnNextQuery.Enabled = true;
         }
 
         private void btnNextQuery_Click(object sender, EventArgs e)
@@ -39,28 +41,37 @@ namespace EnglishProyect.view
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.btnNextQuery.Enabled = true;
+            this.btnNextQuery.Visible = true;
             respuesta= true;
-            
+            button2.Enabled = false;
+            button3.Enabled=false;
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.btnNextQuery.Enabled = true;
+            this.btnNextQuery.Visible = true;
             respuesta = false;
-            
+            button1.Enabled = false;
+            button3.Enabled = false;
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.btnNextQuery.Enabled = true;
+            this.btnNextQuery.Visible = true;
             respuesta = false;
-        }
+            button2.Enabled = false;
+            button1.Enabled = false;
+        }   
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.btnNextQuery.Enabled=false;
+            this.btnNextQuery.Visible =false;
+            button2.Enabled = true;
+            button1.Enabled = true;
+            button3.Enabled = true;
+           
             respuesta = false;
         }
     }

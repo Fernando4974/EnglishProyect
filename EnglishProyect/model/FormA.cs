@@ -50,6 +50,7 @@ namespace EnglishProyect.view
             botonComun.BackColor = Color.Green;
             botonComun.Size = new System.Drawing.Size(332, 70);
             botonComun.Location = new Point(380, 729 );
+            //botonComun.Enabled= false;
             this.Controls.Add(botonComun);
 
             // Botón común change
