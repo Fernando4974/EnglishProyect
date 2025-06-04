@@ -10,13 +10,25 @@ namespace EnglishProyect.controller
     internal class CapturaDeRespuestas
     {
         //public bool[] respuestas = new bool[24];
-        public static List<bool> respuestas;
+        static List<bool> respuestas = new List<bool>();
 
         public int resultados(bool data) {
 
-           respuestas.Add(data);
+            respuestas.Add(data);
 
 
-            return respuestas.Count; }
+            return respuestas.Count; 
+        }
+        public string mostrarR()
+        {
+            string r ="";
+            foreach (var item in respuestas)
+            {
+                r += item.ToString();
+            }
+            return r;
+        }
     }
 }
+    
+

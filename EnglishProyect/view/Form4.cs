@@ -31,6 +31,7 @@ namespace EnglishProyect.view
 
         private void botonComun_Click(object sender, EventArgs e)
         {
+            //aca validas textos
             bool respuesta= false;
             string r1 =  this.comboBox1.Text.ToLower();
             string r2 = this.comboBox1.Text.ToLower();
@@ -39,7 +40,10 @@ namespace EnglishProyect.view
             {
                 respuesta = true;
             }
-            CapturaDeRespuestas.respuestas.Add(respuesta);
+            //aca instancias
+            controller.CapturaDeRespuestas r= new CapturaDeRespuestas();
+            //aca envias resultado
+            r.resultados(respuesta);
             Form form5 = new Form5();
             form5.Show();
             this.Close();
