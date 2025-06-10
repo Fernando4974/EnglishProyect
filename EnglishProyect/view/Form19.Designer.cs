@@ -57,26 +57,29 @@
             this.panel.Controls.Add(this.button1);
             this.panel.Controls.Add(this.label2);
             this.panel.Controls.Add(this.label1);
-            this.panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel.Margin = new System.Windows.Forms.Padding(4);
             this.panel.Size = new System.Drawing.Size(1027, 1031);
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Crimson;
+            this.button5.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(155, 737);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(176, 44);
             this.button5.TabIndex = 65;
             this.button5.Text = "Change answer";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.DarkGreen;
+            this.button4.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold);
             this.button4.Location = new System.Drawing.Point(735, 737);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(176, 44);
             this.button4.TabIndex = 64;
@@ -116,6 +119,7 @@
             this.button3.TabIndex = 59;
             this.button3.Text = "C) When there is strong evidence in the present";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -127,6 +131,7 @@
             this.button2.TabIndex = 58;
             this.button2.Text = "B) When expressing a sudden decision";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -138,6 +143,7 @@
             this.button1.TabIndex = 57;
             this.button1.Text = "A) When making a promise";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -190,7 +196,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1032, 1031);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form19";
             this.Text = "Form19";
             this.Load += new System.EventHandler(this.Form19_Load);

@@ -16,5 +16,10 @@ namespace EnglishProyect.view
         {
             InitializeComponent();
         }
+
+        private void Form21_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

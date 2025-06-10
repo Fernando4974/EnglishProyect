@@ -24,6 +24,7 @@ namespace EnglishProyect.view
         {
             model.Texts text = new model.Texts();
             etiquetaComun.Text += "8" + text.textosStagesContextos[4];
+            botonComun.Visible = false;
         }
 
      

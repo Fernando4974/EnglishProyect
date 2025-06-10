@@ -67,7 +67,7 @@ namespace EnglishProyect.view
             button1.Enabled = false;
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void botonComunChange_Click(object sender, EventArgs e)
         {
             this.botonComun.Visible = false;
             button2.Enabled = true;
@@ -76,5 +76,7 @@ namespace EnglishProyect.view
 
             respuesta = false;
         }
+
+       
     }
 }

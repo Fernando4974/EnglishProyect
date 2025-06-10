@@ -11,7 +11,14 @@ namespace EnglishProyect.controller
     {
         //public bool[] respuestas = new bool[24];
         static List<bool> respuestas = new List<bool>();
+        static List<bool> respuestasBonus = new List<bool>();
 
+        public int resultadosBonus(bool data ) {
+
+            respuestasBonus.Add(data);
+
+        return respuestasBonus.Count;
+        }
         public int resultados(bool data) {
 
             respuestas.Add(data);
@@ -24,7 +31,16 @@ namespace EnglishProyect.controller
             string r ="";
             foreach (var item in respuestas)
             {
-                r += item.ToString();
+                r += item.ToString()+"\n";
+            }
+            return r;
+        }
+        public string mostrarBonus()
+        {
+            string r = "";
+            foreach (var item in respuestasBonus)
+            {
+                r += item.ToString() + "\n";
             }
             return r;
         }
