@@ -42,7 +42,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(618, 92);
+            this.etiquetaContexto.Size = new System.Drawing.Size(766, 116);
             this.etiquetaContexto.Text = "You look at the time, see you\'re \r\nrunning late and decide to run.";
             // 
             // panel
@@ -99,6 +99,7 @@
             this.button1.TabIndex = 12;
             this.button1.Text = "run";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -106,13 +107,15 @@
             this.label1.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(80, 362);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 31);
+            this.label1.Size = new System.Drawing.Size(28, 40);
             this.label1.TabIndex = 11;
             this.label1.Text = "*";
             // 
             // Form10
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 897);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

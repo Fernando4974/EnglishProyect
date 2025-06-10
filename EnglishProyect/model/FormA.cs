@@ -116,6 +116,7 @@ namespace EnglishProyect.view
             this.Name = "FormA";
             this.Load += new System.EventHandler(this.FormA_Load_1);
             this.ResumeLayout(false);
+            this.botonComun.Visible = false;
 
         }
 

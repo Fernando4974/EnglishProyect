@@ -28,62 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel
             // 
             this.panel.BackgroundImage = global::EnglishProyect.Properties.Resources.test;
-            this.panel.Controls.Add(this.textBox1);
+            this.panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel.Controls.Add(this.comboBox1);
             this.panel.Controls.Add(this.label7);
             this.panel.Controls.Add(this.button5);
             this.panel.Controls.Add(this.button4);
             this.panel.Controls.Add(this.label6);
-            this.panel.Controls.Add(this.label5);
             this.panel.Controls.Add(this.label3);
             this.panel.Controls.Add(this.button3);
             this.panel.Controls.Add(this.button2);
             this.panel.Controls.Add(this.button1);
             this.panel.Controls.Add(this.label2);
             this.panel.Controls.Add(this.label1);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(153, 681);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(533, 33);
-            this.textBox1.TabIndex = 84;
+            this.panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel.Size = new System.Drawing.Size(1027, 1031);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(67, 602);
+            this.label7.Location = new System.Drawing.Point(168, 696);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(637, 34);
+            this.label7.Size = new System.Drawing.Size(515, 45);
             this.label7.TabIndex = 82;
-            this.label7.Text = "Ella ha vivido en Nueva York durante cinco años.";
+            this.label7.Text = "book on the top shelf, please?";
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Crimson;
             this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(119, 772);
+            this.button5.Location = new System.Drawing.Point(146, 755);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(132, 36);
+            this.button5.Size = new System.Drawing.Size(176, 44);
             this.button5.TabIndex = 80;
             this.button5.Text = "Change answer";
             this.button5.UseVisualStyleBackColor = false;
@@ -91,9 +86,10 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.DarkGreen;
-            this.button4.Location = new System.Drawing.Point(554, 772);
+            this.button4.Location = new System.Drawing.Point(726, 755);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(132, 36);
+            this.button4.Size = new System.Drawing.Size(176, 44);
             this.button4.TabIndex = 79;
             this.button4.Text = "Next";
             this.button4.UseVisualStyleBackColor = false;
@@ -103,92 +99,98 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(87, 552);
+            this.label6.Location = new System.Drawing.Point(230, 619);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(324, 34);
+            this.label6.Size = new System.Drawing.Size(300, 45);
             this.label6.TabIndex = 78;
-            this.label6.Text = "Translate and Complete:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(87, 681);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 34);
-            this.label5.TabIndex = 77;
-            this.label5.Text = "She";
+            this.label6.Text = "Can you hand me";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(85, 503);
+            this.label3.Location = new System.Drawing.Point(116, 589);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 34);
+            this.label3.Size = new System.Drawing.Size(111, 45);
             this.label3.TabIndex = 76;
             this.label3.Text = "Bonus";
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(93, 398);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Location = new System.Drawing.Point(124, 490);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(558, 79);
+            this.button3.Size = new System.Drawing.Size(744, 97);
             this.button3.TabIndex = 75;
-            this.button3.Text = "C) To talk about actions happening at the moment of speaking.";
+            this.button3.Text = "C) These";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(93, 349);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(124, 430);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(558, 45);
+            this.button2.Size = new System.Drawing.Size(744, 55);
             this.button2.TabIndex = 74;
-            this.button2.Text = "B) To express general truths or facts.";
+            this.button2.Text = "B) That";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(93, 245);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(124, 302);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(558, 100);
+            this.button1.Size = new System.Drawing.Size(744, 123);
             this.button1.TabIndex = 73;
-            this.button1.Text = "A) To talk about actions that started in the past and continue up to the present," +
-    " or past actions with a result in the present.";
+            this.button1.Text = "A) This";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(87, 124);
+            this.label2.Location = new System.Drawing.Point(116, 153);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(566, 68);
+            this.label2.Size = new System.Drawing.Size(786, 90);
             this.label2.TabIndex = 72;
-            this.label2.Text = "In which of the following situations is the \r\npresent perfect tense used correctl" +
-    "y?";
+            this.label2.Text = "Which demostravice adjetive refers to somethig\r\nsingular and near the speaker?";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(387, 31);
+            this.label1.Location = new System.Drawing.Point(516, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(216, 34);
+            this.label1.Size = new System.Drawing.Size(231, 45);
             this.label1.TabIndex = 71;
-            this.label1.Text = "Present Perfect";
+            this.label1.Text = "Demostrative";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "that",
+            "these",
+            "this"});
+            this.comboBox1.Location = new System.Drawing.Point(552, 629);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(197, 42);
+            this.comboBox1.TabIndex = 83;
             // 
             // Form20
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(770, 836);
+            this.ClientSize = new System.Drawing.Size(1027, 1029);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form20";
             this.Text = "Form20";
             this.Load += new System.EventHandler(this.Form20_Load);
@@ -199,18 +201,16 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

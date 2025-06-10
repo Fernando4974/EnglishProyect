@@ -22,7 +22,7 @@ namespace EnglishProyect.model
 
         };
 
-        public string[] textosStagesContextos = { " Past Simple "," Present Continuos"," Present Simple"," Future Simple"," Present Simple" , " Past Progresive"};
+        public string[] textosStagesContextos = { " Past Simple "," Present Continuos"," Present Simple"," Future Simple"," Present Perfect" , " Past Progresive"};
 
        
      

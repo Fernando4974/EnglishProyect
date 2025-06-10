@@ -43,7 +43,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(718, 184);
+            this.etiquetaContexto.Size = new System.Drawing.Size(887, 232);
             this.etiquetaContexto.Text = "you take your lucky pencil out of your \r\npurse and exclaim to yourself:\r\n\r\n\"I bro" +
     "ught my lucky pencil\".";
             // 
@@ -115,6 +115,8 @@
             // Form13
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1308, 979);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
