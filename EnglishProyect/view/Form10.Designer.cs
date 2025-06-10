@@ -36,6 +36,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
+            // botonComunChange
+            // 
+            this.botonComunChange.Click += new System.EventHandler(this.botonComunChange_Click);
+            // 
             // botonComun
             // 
             this.botonComun.Click += new System.EventHandler(this.botonComun_Click);
@@ -59,6 +63,7 @@
             this.button5.TabIndex = 16;
             this.button5.Text = "outside";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -69,6 +74,7 @@
             this.button4.TabIndex = 15;
             this.button4.Text = "already";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -79,6 +85,7 @@
             this.button3.TabIndex = 14;
             this.button3.Text = "I";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -89,6 +96,7 @@
             this.button2.TabIndex = 13;
             this.button2.Text = "have";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -116,7 +124,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 897);
+            this.ClientSize = new System.Drawing.Size(1207, 897);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);

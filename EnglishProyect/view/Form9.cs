@@ -22,6 +22,7 @@ namespace EnglishProyect.view
         {
             model.Texts text = new model.Texts();
             etiquetaComun.Text += "7" + text.textosStagesContextos[5];
+            botonComun.Visible = false;
         }
 
     
@@ -48,6 +49,7 @@ namespace EnglishProyect.view
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             this.botonComun.Visible = true;
+
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)

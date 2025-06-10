@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controller\CalculoPuntuacion.cs" />
     <Compile Include="controller\CapturaDeRespuestas.cs" />
     <Compile Include="model\FormE.cs">
       <SubType>Form</SubType>

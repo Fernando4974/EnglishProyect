@@ -33,6 +33,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // botonComunChange
+            // 
+            this.botonComunChange.Click += new System.EventHandler(this.botonComunChange_Click);
+            // 
             // botonComun
             // 
             this.botonComun.Click += new System.EventHandler(this.botonComun_Click);
@@ -58,6 +62,7 @@
             this.button3.TabIndex = 11;
             this.button3.Text = "I sat at the front.";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -69,6 +74,7 @@
             this.button2.TabIndex = 10;
             this.button2.Text = "I sit at the front.";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -80,6 +86,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "I am sitting at the front.*";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form12
             // 
@@ -93,10 +100,10 @@
             this.Name = "Form12";
             this.Text = "Form12";
             this.Load += new System.EventHandler(this.Form12_Load);
+            this.Controls.SetChildIndex(this.botonComunChange, 0);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);
             this.Controls.SetChildIndex(this.etiquetaComun, 0);
-            this.Controls.SetChildIndex(this.botonComunChange, 0);
             this.Controls.SetChildIndex(this.botonComun, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);

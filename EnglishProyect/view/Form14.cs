@@ -14,6 +14,7 @@ namespace EnglishProyect.view
 {
     public partial class Form14 : FormA
     {
+        controller.CapturaDeRespuestas r = new CapturaDeRespuestas();
         public Form14()
         {
             InitializeComponent();
@@ -23,6 +24,9 @@ namespace EnglishProyect.view
         {
             model.Texts text = new model.Texts();
             etiquetaComun.Text += "12" + text.textosStagesContextos[4];
+            botonComun.Visible = false;
+            
+            etiquetaContexto.Text+= r.mostrarR();
         }
 
      
@@ -38,7 +42,7 @@ namespace EnglishProyect.view
                 respuesta = true;
             }
             //aca instancias
-            controller.CapturaDeRespuestas r = new CapturaDeRespuestas();
+           
             //aca envias resultado
             r.resultados(respuesta);
             FormE formNew = new Form15();

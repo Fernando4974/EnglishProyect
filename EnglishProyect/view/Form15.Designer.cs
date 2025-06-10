@@ -57,7 +57,7 @@
             this.panel.Controls.Add(this.button1);
             this.panel.Controls.Add(this.label2);
             this.panel.Controls.Add(this.label1);
-            this.panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel.Margin = new System.Windows.Forms.Padding(4);
             this.panel.Size = new System.Drawing.Size(1027, 1031);
             this.panel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_Paint);
             // 
@@ -82,7 +82,6 @@
             this.label2.Size = new System.Drawing.Size(853, 90);
             this.label2.TabIndex = 1;
             this.label2.Text = "Wich of the following sentences correctly uses the \r\nPresent Perfect tense?";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button3
             // 
@@ -130,7 +129,6 @@
             this.label3.Size = new System.Drawing.Size(111, 45);
             this.label3.TabIndex = 12;
             this.label3.Text = "Bonus";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -142,7 +140,6 @@
             this.label4.Size = new System.Drawing.Size(506, 45);
             this.label4.TabIndex = 13;
             this.label4.Text = "(not see) him since last week";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label6
             // 
@@ -154,13 +151,13 @@
             this.label6.Size = new System.Drawing.Size(77, 45);
             this.label6.TabIndex = 17;
             this.label6.Text = "She";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.DarkGreen;
+            this.button4.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(703, 789);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(176, 44);
             this.button4.TabIndex = 18;
@@ -171,9 +168,10 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Crimson;
+            this.button5.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(123, 789);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(176, 44);
             this.button5.TabIndex = 19;
@@ -199,7 +197,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1025, 1031);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form15";
             this.Text = "Form15";
             this.Load += new System.EventHandler(this.Form15_Load);

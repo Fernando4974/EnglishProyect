@@ -152,5 +152,10 @@ namespace EnglishProyect.view
                 MessageBox.Show("Error al abrir Form6: " + ex.Message);
             }
         }
+
+        private void etiquetaContexto_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

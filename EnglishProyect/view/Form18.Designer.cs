@@ -64,6 +64,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Crimson;
+            this.button5.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(146, 735);
             this.button5.Margin = new System.Windows.Forms.Padding(4);
@@ -72,10 +73,12 @@
             this.button5.TabIndex = 54;
             this.button5.Text = "Change answer";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.DarkGreen;
+            this.button4.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Bold);
             this.button4.Location = new System.Drawing.Point(726, 735);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
@@ -128,6 +131,7 @@
             this.button3.TabIndex = 48;
             this.button3.Text = "C) She has visited Rome many times";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -139,6 +143,7 @@
             this.button2.TabIndex = 47;
             this.button2.Text = "B) They went to New York already";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -150,6 +155,7 @@
             this.button1.TabIndex = 46;
             this.button1.Text = "A) I have gone to paris last year";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
