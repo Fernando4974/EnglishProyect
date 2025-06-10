@@ -50,6 +50,7 @@ namespace EnglishProyect.view
             botonComun.BackColor = Color.Green;
             botonComun.Size = new System.Drawing.Size(332, 70);
             botonComun.Location = new Point(380, 729 );
+            //botonComun.Enabled= false;
             this.Controls.Add(botonComun);
 
             // Botón común change
@@ -115,6 +116,7 @@ namespace EnglishProyect.view
             this.Name = "FormA";
             this.Load += new System.EventHandler(this.FormA_Load_1);
             this.ResumeLayout(false);
+            this.botonComun.Visible = false;
 
         }
 

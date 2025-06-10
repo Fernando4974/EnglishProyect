@@ -43,9 +43,9 @@ namespace EnglishProyect.model
             // 
             // FormE
             // 
-            this.Size = new System.Drawing.Size(770, 838);
+            this.ClientSize = new System.Drawing.Size(752, 899);
             this.Name = "FormE";
-            this.Load += new System.EventHandler(this.FormE_Load_1);
+            this.Load += new System.EventHandler(this.FormE_Load);
             this.ResumeLayout(false);
 
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EnglishProyect.controller;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,11 +24,42 @@ namespace EnglishProyect.view
             etiquetaComun.Text += "9" + text.textosStagesContextos[2];
         }
 
+     
         private void botonComun_Click(object sender, EventArgs e)
         {
-            FormA fomrNew = new Form12();
-            fomrNew.Show();
+            //aca validas textos
+            bool respuesta = false;
+            string r1 = this.comboBox1.Text.ToLower();
+            string r2 = this.comboBox2.Text.ToLower();
+            // string r3 = this.comboBox1.Text.ToLower();
+            if (r1 == "goes" && r2 == "helps")
+            {
+                respuesta = true;
+            }
+            //aca instancias
+            controller.CapturaDeRespuestas r = new CapturaDeRespuestas();
+            //aca envias resultado
+            r.resultados(respuesta);
+            FormA formNew = new Form12();
+            formNew.Show();
             this.Close();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.botonComun.Visible = true;
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.botonComun.Visible = true;
+        }
+
+        private void botonComunChange_Click(object sender, EventArgs e)
+        {
+            comboBox1.ResetText();
+            comboBox2.ResetText();
+            botonComun.Visible = false;
         }
     }
 }

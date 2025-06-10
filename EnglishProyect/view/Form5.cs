@@ -14,6 +14,7 @@ namespace EnglishProyect.view
 {
     public partial class Form5 : FormA
     {
+        public bool respuesta = false;
         
         public Form5()
         {
@@ -28,9 +29,13 @@ namespace EnglishProyect.view
             //aca puedes ver los resultados
             controller.CapturaDeRespuestas r = new CapturaDeRespuestas();
             etiquetaContexto.Text += r.mostrarR();
+            botonComun.Enabled = true;
+            botonComun.Visible = false;
         }
         private void botonComun_Click(object sender, EventArgs e)
         {
+            controller.CapturaDeRespuestas r = new CapturaDeRespuestas();
+            r.resultados(respuesta);
             try
             {
                 FormA form6 = new Form6();
@@ -46,10 +51,124 @@ namespace EnglishProyect.view
         private void button1_Click(object sender, EventArgs e)
         {
             PlayBtn1();
+            respuesta=true;
+            foreach (Control control  in this.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Visible = false;
+                
+                }
+            }
+            button1.Visible = true;
+            botonComun.Visible = true;
+            botonComunChange.Visible = true;
         }
 
         private void etiquetaContexto_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void panel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            respuesta = false;
+            foreach (Control control in this.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Visible = false;
+                   
+                }
+            }
+            button5.Visible = true;
+            botonComun.Visible = true;
+            botonComunChange.Visible = true;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            respuesta = false;
+            foreach (Control control in this.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Visible = false;
+                    
+                }
+            }
+            button6.Visible = true;
+            botonComun.Visible = true;
+            botonComunChange.Visible = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            respuesta = false;
+            foreach (Control control in this.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Visible = false;
+                    
+                }
+            }
+            button4.Visible = true;
+            botonComun.Visible = true;
+            botonComunChange.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            respuesta = false;
+            foreach (Control control in this.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Visible = false;
+                   
+                }
+
+            }
+            button2.Visible = true;
+            botonComun.Visible = true;
+            botonComunChange.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            respuesta = false;
+            foreach (Control control in this.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Visible = false;
+                    
+                }
+                
+            }
+            button3.Visible = true;
+            botonComun.Visible = true;
+            botonComunChange.Visible = true;
+        }
+
+        private void botonComunChange_Click(object sender, EventArgs e)
+        {
+            respuesta = false;
+            foreach (Control control in this.Controls)
+            {
+                if (control is Button button)
+                {
+                    button.Visible = true;
+
+                }
+
+            }botonComun.Visible = false;
             
         }
     }

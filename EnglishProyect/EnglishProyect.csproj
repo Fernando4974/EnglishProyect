@@ -308,6 +308,7 @@
     <None Include="bin\Debug\img\teacher.png" />
     <None Include="bin\Debug\img\test.png" />
     <None Include="bin\Debug\img\r.png" />
+    <None Include="bin\Debug\img\ninoBici.png" />
     <Content Include="bin\Debug\sound\ruta1.wav" />
     <Content Include="sound\ruta1.wav" />
     <None Include="bin\Debug\img\bocina1.jpg" />

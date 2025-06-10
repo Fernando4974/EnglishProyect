@@ -42,7 +42,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(629, 138);
+            this.etiquetaContexto.Size = new System.Drawing.Size(785, 174);
             this.etiquetaContexto.Text = "When you arrive at the university,\r\nyou decide to go to the bathroom\r\nas you alwa" +
     "ys do before exams.";
             // 
@@ -58,7 +58,7 @@
             this.label6.Location = new System.Drawing.Point(264, 478);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(127, 29);
+            this.label6.Size = new System.Drawing.Size(158, 37);
             this.label6.TabIndex = 26;
             this.label6.Text = "him relax.\r\n";
             // 
@@ -69,7 +69,7 @@
             this.label2.Location = new System.Drawing.Point(264, 418);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(421, 29);
+            this.label2.Size = new System.Drawing.Size(525, 37);
             this.label2.TabIndex = 23;
             this.label2.Text = "to the bathroom before every test";
             // 
@@ -80,7 +80,7 @@
             this.label1.Location = new System.Drawing.Point(82, 418);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 29);
+            this.label1.Size = new System.Drawing.Size(53, 37);
             this.label1.TabIndex = 22;
             this.label1.Text = "He";
             // 
@@ -95,7 +95,7 @@
             this.comboBox2.Location = new System.Drawing.Point(126, 478);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(116, 36);
+            this.comboBox2.Size = new System.Drawing.Size(116, 41);
             this.comboBox2.TabIndex = 21;
             // 
             // comboBox1
@@ -109,7 +109,7 @@
             this.comboBox1.Location = new System.Drawing.Point(126, 417);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(125, 36);
+            this.comboBox1.Size = new System.Drawing.Size(125, 41);
             this.comboBox1.TabIndex = 20;
             // 
             // label3
@@ -119,13 +119,15 @@
             this.label3.Location = new System.Drawing.Point(82, 478);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 29);
+            this.label3.Size = new System.Drawing.Size(42, 37);
             this.label3.TabIndex = 27;
             this.label3.Text = "It";
             // 
             // Form11
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 959);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label6);

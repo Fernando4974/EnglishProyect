@@ -48,7 +48,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(686, 276);
+            this.etiquetaContexto.Size = new System.Drawing.Size(854, 348);
             this.etiquetaContexto.Text = "A friend who is on the bus with\r\nhim asks what he studied last night.\r\n\r\nFriend: " +
     "What did he study last night?\r\n\r\nAnswers using the past simple";
             // 
@@ -67,28 +67,31 @@
             this.button3.TabIndex = 8;
             this.button3.Text = "I have studied irregular verbs.";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(61, 499);
+            this.button2.Location = new System.Drawing.Point(61, 450);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(597, 46);
             this.button2.TabIndex = 7;
             this.button2.Text = "I am studying irregular verbs.";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(61, 423);
+            this.button1.Location = new System.Drawing.Point(61, 512);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(597, 46);
             this.button1.TabIndex = 6;
             this.button1.Text = "I studied irregular verbs. *";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form7
             // 

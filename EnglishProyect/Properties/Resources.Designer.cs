@@ -233,6 +233,16 @@ namespace EnglishProyect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ninoBici {
+            get {
+                object obj = ResourceManager.GetObject("ninoBici", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap plantilla_fondo_geometrico_abstracto_degradado_561513_11 {
             get {
                 object obj = ResourceManager.GetObject("plantilla-fondo-geometrico-abstracto-degradado_561513-11", resourceCulture);

@@ -39,7 +39,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(642, 138);
+            this.etiquetaContexto.Size = new System.Drawing.Size(798, 174);
             this.etiquetaContexto.Text = "You enter the room and sit at the\r\nfront. Which option best describes\r\nyour curre" +
     "nt situation?";
             // 
@@ -84,6 +84,8 @@
             // Form12
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 919);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
