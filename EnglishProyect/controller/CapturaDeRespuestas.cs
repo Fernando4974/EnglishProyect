@@ -10,9 +10,15 @@ namespace EnglishProyect.controller
     internal class CapturaDeRespuestas
     {
         //public bool[] respuestas = new bool[24];
-        static List<bool> respuestas = new List<bool>();
-        static List<bool> respuestasBonus = new List<bool>();
+       public static List<bool> respuestas = new List<bool>();
+        
+        public  static List<bool> respuestasBonus = new List<bool>();
 
+        public void VaciarListas()
+        {
+            respuestas.Clear();
+            respuestasBonus.Clear();
+        }
         public int resultadosBonus(bool data ) {
 
             respuestasBonus.Add(data);

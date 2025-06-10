@@ -50,6 +50,7 @@
             this.etiquetaContexto.Size = new System.Drawing.Size(717, 348);
             this.etiquetaContexto.Text = "Another colleague on the bus\r\nasks him: “What will you do\r\nif the exam is too har" +
     "d?”\r\n\r\nChoose the audio that correctly\r\nanswers: “I will do my best.”";
+            this.etiquetaContexto.Click += new System.EventHandler(this.etiquetaContexto_Click);
             // 
             // panel
             // 

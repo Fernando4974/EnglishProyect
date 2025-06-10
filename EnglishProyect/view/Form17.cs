@@ -36,16 +36,6 @@ namespace EnglishProyect.view
 
         }
 
-     
-
-
-       
-
-
-
-
-
-
         private void button4_Click(object sender, EventArgs e)
         {
             r1 = comboBox1.Text;
