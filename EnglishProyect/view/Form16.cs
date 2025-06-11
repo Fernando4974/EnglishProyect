@@ -87,6 +87,9 @@ namespace EnglishProyect.view
             button4.Visible = false;
         }
 
-       
+        private void labelR_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

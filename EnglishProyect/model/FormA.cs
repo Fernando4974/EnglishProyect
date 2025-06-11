@@ -16,7 +16,7 @@ namespace EnglishProyect.view
     public class FormA : Form
     {
 
-       static controller.CapturaDeRespuestas capturaGlobal = new controller.CapturaDeRespuestas();
+        static controller.CapturaDeRespuestas capturaGlobal = new controller.CapturaDeRespuestas();
 
         protected Button botonComunChange;
         protected Button botonComun;
@@ -24,14 +24,21 @@ namespace EnglishProyect.view
         protected Label etiquetaContexto;
         protected Panel panel;
 
-   
+
+        //-----------------------------NICOLAS---------------------------------AUDIOS
 
         static string ruta1 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
-        SoundPlayer SoundPlayer_1= new SoundPlayer(ruta1);
+        SoundPlayer SoundPlayer_1 = new SoundPlayer(ruta1);
         static string ruta2 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
         SoundPlayer SoundPlayer_2 = new SoundPlayer(ruta1);
         static string ruta3 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
         SoundPlayer SoundPlayer_3 = new SoundPlayer(ruta1);
+        static string ruta4 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
+        SoundPlayer SoundPlayer_4 = new SoundPlayer(ruta1);
+        static string ruta5 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
+        SoundPlayer SoundPlayer_5 = new SoundPlayer(ruta1);
+        static string ruta6 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
+        SoundPlayer SoundPlayer_6 = new SoundPlayer(ruta1);
         public FormA()
         {
           
@@ -89,6 +96,8 @@ namespace EnglishProyect.view
             panel.Location = new Point(730, 0);
             panel.Size= new Size(770,838);
             this.Controls.Add(panel);
+            back_load();
+
         }
                     
         //public void botonComun_Click() {
@@ -120,16 +129,35 @@ namespace EnglishProyect.view
 
         }
 
+        //-----------------------------NICOLAS---------------------------------funcion cambiar fondo y letra de labels
+        public void back_load()
+        {
+            foreach (Control control in this.Controls)
+            {
+                if (control is Label label)
+                {
+                    label.BackColor = Color.Transparent;
+                    label.ForeColor = Color.White;
+                }
+            }
+        }
         private void FormA_Load(object sender, EventArgs e)
         {
-         
+            foreach (Control control in this.Controls)
+            {
+                if (control is Label label)
+                {
+                    label.BackColor = Color.Transparent;
+                    label.ForeColor = Color.White;
+                }
+            }
         }
 
-
+        //--------------------NICOLAS------------------------------------funcion reproducir audio de botones, faltan 3l 4 5 y 6
         public void PlayBtn1()
         {
-            this.Load += new System.EventHandler(this.FormA_Load);
-            this.ResumeLayout(false);
+            //this.Load += new System.EventHandler(this.FormA_Load);
+            //this.ResumeLayout(false);
             SoundPlayer_1.Play();
         }
         public void PlayBtn2()

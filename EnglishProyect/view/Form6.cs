@@ -26,10 +26,10 @@ namespace EnglishProyect.view
         private void Form6_Load(object sender, EventArgs e)
         {
             etiquetaComun.Text += "4"+text.textosStagesContextos[2];
-     
-           
+
+            back_load();
           
-            etiquetaContexto.Text += r.mostrarR();
+           // etiquetaContexto.Text += r.mostrarR();
             botonComun.Visible = false;
 
         }

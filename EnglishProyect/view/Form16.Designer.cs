@@ -39,7 +39,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.labelR = new System.Windows.Forms.Label();
             this.panel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +46,6 @@
             // 
             this.panel.BackgroundImage = global::EnglishProyect.Properties.Resources.test;
             this.panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel.Controls.Add(this.labelR);
             this.panel.Controls.Add(this.label4);
             this.panel.Controls.Add(this.comboBox1);
             this.panel.Controls.Add(this.button5);
@@ -194,17 +192,6 @@
             this.label4.TabIndex = 34;
             this.label4.Text = "(rain)";
             // 
-            // labelR
-            // 
-            this.labelR.AutoSize = true;
-            this.labelR.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelR.Location = new System.Drawing.Point(892, 22);
-            this.labelR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelR.Name = "labelR";
-            this.labelR.Size = new System.Drawing.Size(92, 22);
-            this.labelR.TabIndex = 35;
-            this.labelR.Text = "REspuestas";
-            // 
             // Form16
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -233,6 +220,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label labelR;
     }
 }

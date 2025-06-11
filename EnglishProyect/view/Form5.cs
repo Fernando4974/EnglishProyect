@@ -28,7 +28,7 @@ namespace EnglishProyect.view
             etiquetaComun.Text += "3"+objModel.textosStagesContextos[3];
             //aca puedes ver los resultados
             controller.CapturaDeRespuestas r = new CapturaDeRespuestas();
-            etiquetaContexto.Text += r.mostrarR();
+            //etiquetaContexto.Text += r.mostrarR();
             botonComun.Enabled = true;
             botonComun.Visible = false;
         }

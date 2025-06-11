@@ -26,7 +26,7 @@ namespace EnglishProyect.view
             etiquetaComun.Text += "12" + text.textosStagesContextos[4];
             botonComun.Visible = false;
             
-            etiquetaContexto.Text+= r.mostrarR();
+           // etiquetaContexto.Text+= r.mostrarR();
         }
 
      

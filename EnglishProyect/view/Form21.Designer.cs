@@ -47,7 +47,8 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(313, 170);
             this.label1.TabIndex = 0;
-            this.label1.Text = "                Results\r\nTrip results\r\nTest results\r\nBonus points\r\nTotal result";
+            this.label1.Text = "                Results\r\nTrip results\r\nTest results\r\nBonus points\r\n           Tot" +
+    "al result";
             // 
             // button1
             // 
@@ -100,7 +101,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(453, 212);
+            this.label5.Location = new System.Drawing.Point(582, 212);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(25, 34);
@@ -123,12 +124,12 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(638, 85);
+            this.label7.Location = new System.Drawing.Point(612, 85);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(162, 22);
+            this.label7.Size = new System.Drawing.Size(187, 44);
             this.label7.TabIndex = 7;
-            this.label7.Text = "Max Score: 24 pts";
+            this.label7.Text = "Perfect Score: 24 pts\r\nPassing Score: 18 pts";
             // 
             // Form21
             // 
