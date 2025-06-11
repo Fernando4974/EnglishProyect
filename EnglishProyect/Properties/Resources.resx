@@ -127,8 +127,14 @@
   <data name="back_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\back_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ninoBici" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\img\ninoBici.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="despertar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\despertar.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nino_sentado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\img\nino_sentado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\back_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,9 +163,6 @@
   <data name="back_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\back_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="teacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\img\teacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\bus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,11 +172,11 @@
   <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\test.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="teacher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\img\teacher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\img2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nino_sentado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\img\nino_sentado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nino_bus_sale" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\nino_bus_sale.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,7 +184,7 @@
   <data name="nini" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\img\nini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ninoBici" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\img\ninoBici.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\img\img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -24,7 +24,7 @@ namespace EnglishProyect.view
         model.Texts texto = new model.Texts();
 
         //Selector de imagen
-        string rutaImagen = Path.Combine(Application.StartupPath, "img", $"img{cont.ToString()}.png");
+       // string rutaImagen = Path.Combine(Application.StartupPath, "img", $"img{cont.ToString()}.png");
 
 
 
@@ -37,7 +37,7 @@ namespace EnglishProyect.view
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            this.panel1.BackgroundImage = Image.FromFile(rutaImagen);
+           // this.panel1.BackgroundImage = Image.FromFile(rutaImagen);
             this.label1.BackColor = Color.Transparent;
             this.lblTextInstructions.BackColor= Color.Transparent;
         }
@@ -55,8 +55,8 @@ namespace EnglishProyect.view
             
             //asignamos el texto
             this.lblTextInstructions.Text = texto.textosInstruciones[cont] ;
-            string rutaImagen = Path.Combine(Application.StartupPath, "img", $"img{cont.ToString()}.png");
-            this.panel1.BackgroundImage = Image.FromFile(rutaImagen);
+            //string rutaImagen = Path.Combine(Application.StartupPath, "content", "img", $"img{cont.ToString()}.png");
+            //this.panel1.BackgroundImage = Image.FromFile(rutaImagen);
             
         }
 
@@ -110,8 +110,8 @@ namespace EnglishProyect.view
             this.indice=false;
             contadorBotones(indice);
             this.lblTextInstructions.Text = texto.textosInstruciones[cont];
-            string rutaImagen = Path.Combine(Application.StartupPath, "img", $"img{cont.ToString()}.png");
-            this.panel1.BackgroundImage = Image.FromFile(rutaImagen);
+            //string rutaImagen = Path.Combine(Application.StartupPath, "content", "img", $"img{cont.ToString()}.png");
+         //   this.panel1.BackgroundImage = Image.FromFile(rutaImagen);
         }
 
         private void btnStart_Click(object sender, EventArgs e)
