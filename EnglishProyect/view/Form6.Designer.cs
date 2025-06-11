@@ -38,28 +38,16 @@
             // 
             // botonComunChange
             // 
-            this.botonComunChange.Location = new System.Drawing.Point(51, 897);
-            this.botonComunChange.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.botonComunChange.Size = new System.Drawing.Size(443, 86);
             this.botonComunChange.Click += new System.EventHandler(this.botonComunChange_Click);
             // 
             // botonComun
             // 
-            this.botonComun.Location = new System.Drawing.Point(507, 897);
-            this.botonComun.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.botonComun.Size = new System.Drawing.Size(443, 86);
             this.botonComun.Click += new System.EventHandler(this.botonComun_Click);
-            // 
-            // etiquetaComun
-            // 
-            this.etiquetaComun.Location = new System.Drawing.Point(13, 12);
-            this.etiquetaComun.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Location = new System.Drawing.Point(16, 101);
-            this.etiquetaContexto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.etiquetaContexto.Size = new System.Drawing.Size(733, 348);
+            this.etiquetaContexto.Location = new System.Drawing.Point(12, 82);
+            this.etiquetaContexto.Size = new System.Drawing.Size(590, 276);
             this.etiquetaContexto.Text = "The young man is already riding\r\nthe bus and is thinking that he \r\nshould review " +
     "for the exam.\r\n\r\nOrder the following sentence\r\nusing the present continuous.";
             // 
@@ -67,28 +55,25 @@
             // 
             this.panel.BackgroundImage = global::EnglishProyect.Properties.Resources.bus;
             this.panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel.Location = new System.Drawing.Point(973, 0);
-            this.panel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.panel.Size = new System.Drawing.Size(1027, 1031);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(112, 512);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(84, 416);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 40);
+            this.label1.Size = new System.Drawing.Size(23, 31);
             this.label1.TabIndex = 5;
             this.label1.Text = "*";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(71, 661);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(53, 537);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(153, 53);
+            this.button1.Size = new System.Drawing.Size(115, 43);
             this.button1.TabIndex = 6;
             this.button1.Text = "notes";
             this.button1.UseVisualStyleBackColor = true;
@@ -97,10 +82,9 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(244, 661);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(183, 537);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(153, 53);
+            this.button2.Size = new System.Drawing.Size(115, 43);
             this.button2.TabIndex = 7;
             this.button2.Text = "reviewing";
             this.button2.UseVisualStyleBackColor = true;
@@ -109,10 +93,9 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(405, 661);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(304, 537);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 53);
+            this.button3.Size = new System.Drawing.Size(115, 43);
             this.button3.TabIndex = 8;
             this.button3.Text = "I";
             this.button3.UseVisualStyleBackColor = true;
@@ -121,10 +104,9 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(568, 661);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Location = new System.Drawing.Point(426, 537);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(153, 53);
+            this.button4.Size = new System.Drawing.Size(115, 43);
             this.button4.TabIndex = 9;
             this.button4.Text = "my ";
             this.button4.UseVisualStyleBackColor = true;
@@ -133,10 +115,9 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(737, 661);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Location = new System.Drawing.Point(553, 537);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(153, 53);
+            this.button5.Size = new System.Drawing.Size(115, 43);
             this.button5.TabIndex = 10;
             this.button5.Text = "am";
             this.button5.UseVisualStyleBackColor = true;
@@ -144,17 +125,16 @@
             // 
             // Form6
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
-            this.ClientSize = new System.Drawing.Size(1657, 1014);
+            this.ClientSize = new System.Drawing.Size(1243, 824);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form6";
             this.Text = "Form6";
             this.Load += new System.EventHandler(this.Form6_Load);

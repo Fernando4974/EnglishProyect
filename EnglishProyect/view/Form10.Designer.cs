@@ -46,7 +46,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(766, 116);
+            this.etiquetaContexto.Size = new System.Drawing.Size(618, 92);
             this.etiquetaContexto.Text = "You look at the time, see you\'re \r\nrunning late and decide to run.";
             // 
             // panel
@@ -112,10 +112,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(80, 362);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 40);
+            this.label1.Size = new System.Drawing.Size(23, 31);
             this.label1.TabIndex = 11;
             this.label1.Text = "*";
             // 
