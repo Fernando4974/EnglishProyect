@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.lblDebug = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // botonComunChange
@@ -47,7 +48,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(696, 184);
+            this.etiquetaContexto.Size = new System.Drawing.Size(864, 232);
             this.etiquetaContexto.Text = "The bus turns off and doesn\'t turn on\r\nagain, so you decide to get off, \r\nbut fir" +
     "st you think about what \r\nhas just happened to you.";
             // 
@@ -65,7 +66,7 @@
             this.label6.Location = new System.Drawing.Point(170, 474);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 29);
+            this.label6.Size = new System.Drawing.Size(87, 37);
             this.label6.TabIndex = 19;
             this.label6.Text = "down";
             // 
@@ -78,7 +79,7 @@
             this.label5.Location = new System.Drawing.Point(318, 415);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 29);
+            this.label5.Size = new System.Drawing.Size(113, 37);
             this.label5.TabIndex = 18;
             this.label5.Text = "quietly";
             // 
@@ -91,7 +92,7 @@
             this.label3.Location = new System.Drawing.Point(413, 415);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 29);
+            this.label3.Size = new System.Drawing.Size(209, 37);
             this.label3.TabIndex = 16;
             this.label3.Text = "when the bus";
             // 
@@ -104,7 +105,7 @@
             this.label2.Location = new System.Drawing.Point(227, 414);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 29);
+            this.label2.Size = new System.Drawing.Size(108, 37);
             this.label2.TabIndex = 15;
             this.label2.Text = "sitting";
             // 
@@ -117,7 +118,7 @@
             this.label1.Location = new System.Drawing.Point(45, 414);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 29);
+            this.label1.Size = new System.Drawing.Size(26, 37);
             this.label1.TabIndex = 14;
             this.label1.Text = "I";
             // 
@@ -132,7 +133,7 @@
             this.comboBox2.Location = new System.Drawing.Point(50, 472);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(116, 36);
+            this.comboBox2.Size = new System.Drawing.Size(116, 41);
             this.comboBox2.TabIndex = 12;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
@@ -147,9 +148,20 @@
             this.comboBox1.Location = new System.Drawing.Point(89, 413);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(125, 36);
+            this.comboBox1.Size = new System.Drawing.Size(125, 41);
             this.comboBox1.TabIndex = 11;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // lblDebug
+            // 
+            this.lblDebug.AutoSize = true;
+            this.lblDebug.Location = new System.Drawing.Point(405, 559);
+            this.lblDebug.Name = "lblDebug";
+            this.lblDebug.Size = new System.Drawing.Size(11, 16);
+            this.lblDebug.TabIndex = 20;
+            this.lblDebug.Text = "-";
+            this.lblDebug.Visible = false;
+            this.lblDebug.Click += new System.EventHandler(this.lblDebug_Click);
             // 
             // Form9
             // 
@@ -157,6 +169,7 @@
             this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1056, 832);
+            this.Controls.Add(this.lblDebug);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -165,7 +178,6 @@
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Name = "Form9";
-            this.Text = "Form9";
             this.Load += new System.EventHandler(this.Form9_Load);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);
@@ -179,6 +191,7 @@
             this.Controls.SetChildIndex(this.label3, 0);
             this.Controls.SetChildIndex(this.label5, 0);
             this.Controls.SetChildIndex(this.label6, 0);
+            this.Controls.SetChildIndex(this.lblDebug, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -192,5 +205,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label lblDebug;
     }
 }

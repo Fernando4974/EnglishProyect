@@ -13,7 +13,7 @@ namespace EnglishProyect.view
 {
     public partial class Form13 : FormA
     {
-        bool respuesta = true;
+        bool respuesta;
         public Form13()
         {
             InitializeComponent();

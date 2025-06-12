@@ -22,6 +22,7 @@ namespace EnglishProyect.view
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            this.Text = " On The Way To Your Exam";
             this.lblStage1.BackColor = Color.Transparent;
             this.lblQuery.BackColor = Color.Transparent;
             btnNextQuery.Visible = false;
@@ -73,6 +74,11 @@ namespace EnglishProyect.view
             button3.Enabled = true;
            
             respuesta = false;
+        }
+
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            lblDebug.Text = respuesta.ToString();
         }
     }
 }

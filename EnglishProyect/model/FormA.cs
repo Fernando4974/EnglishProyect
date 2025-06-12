@@ -15,7 +15,7 @@ namespace EnglishProyect.view
 {
     public class FormA : Form
     {
-
+       
         static controller.CapturaDeRespuestas capturaGlobal = new controller.CapturaDeRespuestas();
 
         protected Button botonComunChange;
@@ -27,7 +27,7 @@ namespace EnglishProyect.view
 
         //-----------------------------NICOLAS---------------------------------AUDIOS
 
-        static string ruta1 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
+        static string ruta1 = Path.Combine(Application.StartupPath, "sound", "audio2.wav");
         SoundPlayer SoundPlayer_1 = new SoundPlayer(ruta1);
         static string ruta2 = Path.Combine(Application.StartupPath, "sound", "correctaForm8.wav");
         SoundPlayer SoundPlayer_2 = new SoundPlayer(ruta2);
@@ -41,6 +41,7 @@ namespace EnglishProyect.view
         SoundPlayer SoundPlayer_6 = new SoundPlayer(ruta6);
         public FormA()
         {
+            this.Text = " On The Way To Your Exam";
           
            // string ruta = Path.Combine(Application.StartupPath, "img", "back_5.jpg");
             //this.BackgroundImage = Image.FromFile(ruta);
@@ -89,7 +90,7 @@ namespace EnglishProyect.view
             //etiquetaComun.Size = new System.Drawing.Size(332, 70);
             etiquetaContexto.ForeColor = Color.White;
             this.Controls.Add(etiquetaContexto);
-
+            this.Text = " On The Way To Your Exam";
             //Panel de foto
 
             panel = new Panel();

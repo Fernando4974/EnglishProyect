@@ -176,5 +176,15 @@ namespace EnglishProyect.view
             }botonComun.Visible = false;
             
         }
+
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            lblDebug.Text=respuesta.ToString();
+        }
+
+        private void lblDebug_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

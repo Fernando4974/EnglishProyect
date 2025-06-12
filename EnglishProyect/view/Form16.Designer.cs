@@ -195,7 +195,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(769, 849);
             this.Name = "Form16";
-            this.Text = "Form16";
+            //   this.Text = "Form16";
             this.Load += new System.EventHandler(this.Form16_Load);
             this.panel.ResumeLayout(false);
             this.panel.PerformLayout();

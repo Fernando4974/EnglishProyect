@@ -162,5 +162,10 @@ namespace EnglishProyect.view
         {
 
         }
+
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            //lblDebug.Text = respuesta.ToString();
+        }
     }
 }
