@@ -77,6 +77,7 @@ namespace EnglishProyect.view
 
         private void button5_Click(object sender, EventArgs e)
         {
+            PlayBtn2();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -93,6 +94,7 @@ namespace EnglishProyect.view
 
         private void button6_Click(object sender, EventArgs e)
         {
+            PlayBtn3();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -109,6 +111,7 @@ namespace EnglishProyect.view
 
         private void button4_Click(object sender, EventArgs e)
         {
+            PlayBtn4();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -125,6 +128,7 @@ namespace EnglishProyect.view
 
         private void button2_Click(object sender, EventArgs e)
         {
+            PlayBtn5();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -142,6 +146,7 @@ namespace EnglishProyect.view
 
         private void button3_Click(object sender, EventArgs e)
         {
+            PlayBtn6();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -170,6 +175,16 @@ namespace EnglishProyect.view
 
             }botonComun.Visible = false;
             
+        }
+
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            lblDebug.Text=respuesta.ToString();
+        }
+
+        private void lblDebug_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

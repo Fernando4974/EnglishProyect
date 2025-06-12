@@ -31,6 +31,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.lblDebug = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // botonComunChange
@@ -89,9 +90,19 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(597, 46);
             this.button1.TabIndex = 6;
-            this.button1.Text = "I studied irregular verbs. *";
+            this.button1.Text = "I studied irregular verbs. ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lblDebug
+            // 
+            this.lblDebug.AutoSize = true;
+            this.lblDebug.Location = new System.Drawing.Point(323, 640);
+            this.lblDebug.Name = "lblDebug";
+            this.lblDebug.Size = new System.Drawing.Size(11, 16);
+            this.lblDebug.TabIndex = 15;
+            this.lblDebug.Text = "-";
+            this.lblDebug.Visible = false;
             // 
             // Form7
             // 
@@ -99,11 +110,11 @@
             this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1901, 1033);
+            this.Controls.Add(this.lblDebug);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form7";
-            this.Text = "Form7";
             this.Load += new System.EventHandler(this.Form7_Load);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);
@@ -113,6 +124,7 @@
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);
             this.Controls.SetChildIndex(this.button3, 0);
+            this.Controls.SetChildIndex(this.lblDebug, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,5 +135,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblDebug;
     }
 }

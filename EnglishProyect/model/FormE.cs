@@ -18,7 +18,7 @@ namespace EnglishProyect.model
 
         public FormE()
         {
-           
+            this.Text = " On The Way To Your Exam";
             panel = new Panel();
             panel.Size = new Size(770, 838);
             this.Controls.Add(panel);

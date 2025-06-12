@@ -37,7 +37,7 @@ namespace EnglishProyect.controller
             string r ="";
             foreach (var item in respuestas)
             {
-                r += item.ToString()+"\n";
+                r += item.ToString()+", ";
             }
             return r;
         }
@@ -46,7 +46,7 @@ namespace EnglishProyect.controller
             string r = "";
             foreach (var item in respuestasBonus)
             {
-                r += item.ToString() + "\n";
+                r += item.ToString() + ",";
             }
             return r;
         }

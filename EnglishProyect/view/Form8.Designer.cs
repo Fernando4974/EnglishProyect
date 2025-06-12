@@ -136,7 +136,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form8";
-            this.Text = "Form8";
             this.Load += new System.EventHandler(this.Form8_Load);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);

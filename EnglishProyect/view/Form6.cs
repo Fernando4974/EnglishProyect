@@ -36,8 +36,8 @@ namespace EnglishProyect.view
 
         private void botonComun_Click(object sender, EventArgs e)
         {
-            if (this.label1.Text.ToLower() == "i am rewing my notes ")
-            {
+            if (this.label1.Text== "- I am reviewing my notes ")
+            {                       
                 respuesta = true;
             }
             r.resultados(respuesta);
@@ -58,7 +58,7 @@ namespace EnglishProyect.view
                 botonComun.Visible = false;
                 
             }
-            label1.Text = "*";
+            label1.Text = "- ";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -95,6 +95,17 @@ namespace EnglishProyect.view
             label1.Text += button5.Text + " ";
             button5.Visible = false;
             botonComun.Visible = true;
+        }
+
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            lblDebug.Text=label1.Text+"|";
+            textBox1.Text = label1.Text + "|";
+        }
+
+        private void lblDebug_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

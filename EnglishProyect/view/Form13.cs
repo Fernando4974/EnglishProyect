@@ -13,7 +13,7 @@ namespace EnglishProyect.view
 {
     public partial class Form13 : FormA
     {
-        bool respuesta = true;
+        bool respuesta;
         public Form13()
         {
             InitializeComponent();
@@ -43,7 +43,7 @@ namespace EnglishProyect.view
         private void button1_Click(object sender, EventArgs e)
         {
             PlayBtn1();
-            respuesta = true;
+            respuesta = false;
             foreach (Control control in this.Controls)
             {
                 if (control is Button button)
@@ -58,6 +58,7 @@ namespace EnglishProyect.view
         }
         private void button5_Click(object sender, EventArgs e)
         {
+            PlayBtn6();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -74,6 +75,7 @@ namespace EnglishProyect.view
 
         private void button6_Click(object sender, EventArgs e)
         {
+            PlayBtn5();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -90,6 +92,7 @@ namespace EnglishProyect.view
 
         private void button4_Click(object sender, EventArgs e)
         {
+            PlayBtn4();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -106,7 +109,8 @@ namespace EnglishProyect.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-            respuesta = false;
+            PlayBtn3();
+            respuesta = true;
             foreach (Control control in this.Controls)
             {
                 if (control is Button button)
@@ -123,6 +127,7 @@ namespace EnglishProyect.view
 
         private void button3_Click(object sender, EventArgs e)
         {
+            PlayBtn2();
             respuesta = false;
             foreach (Control control in this.Controls)
             {

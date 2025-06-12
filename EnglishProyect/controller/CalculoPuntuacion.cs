@@ -63,7 +63,7 @@ namespace EnglishProyect.controller
         { 
 
 
-            for (int i = 0; i <= 12; i++)
+            for (int i = 0; i <= 11; i++)
             {                
                
                     if (respuestas[i] == true)
@@ -82,7 +82,7 @@ namespace EnglishProyect.controller
         {
 
 
-            for (int i = 13; i < respuestas.Count; i++)
+            for (int i = 12; i < respuestas.Count; i++)
             {
 
                 if (respuestas[i] == true)

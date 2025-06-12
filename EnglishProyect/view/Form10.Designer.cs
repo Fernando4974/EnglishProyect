@@ -34,6 +34,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblDebug = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // botonComunChange
@@ -112,12 +114,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(80, 362);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 40);
+            this.label1.Size = new System.Drawing.Size(46, 40);
             this.label1.TabIndex = 11;
-            this.label1.Text = "*";
+            this.label1.Text = "- ";
+            // 
+            // lblDebug
+            // 
+            this.lblDebug.AutoSize = true;
+            this.lblDebug.Location = new System.Drawing.Point(302, 555);
+            this.lblDebug.Name = "lblDebug";
+            this.lblDebug.Size = new System.Drawing.Size(11, 16);
+            this.lblDebug.TabIndex = 17;
+            this.lblDebug.Text = "-";
+            this.lblDebug.Visible = false;
+            this.lblDebug.Click += new System.EventHandler(this.lblDebug_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(299, 595);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(500, 22);
+            this.textBox1.TabIndex = 19;
+            this.textBox1.Visible = false;
             // 
             // Form10
             // 
@@ -125,6 +149,8 @@
             this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1207, 897);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblDebug);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -132,7 +158,6 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form10";
-            this.Text = "Form10";
             this.Load += new System.EventHandler(this.Form10_Load);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);
@@ -145,6 +170,8 @@
             this.Controls.SetChildIndex(this.button3, 0);
             this.Controls.SetChildIndex(this.button4, 0);
             this.Controls.SetChildIndex(this.button5, 0);
+            this.Controls.SetChildIndex(this.lblDebug, 0);
+            this.Controls.SetChildIndex(this.textBox1, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,5 +185,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDebug;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

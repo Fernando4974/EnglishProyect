@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -58,7 +58,10 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>iconoIngles.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -352,6 +355,13 @@
     <None Include="bin\Debug\img\ninoBici.png" />
     <None Include="bin\Debug\img\img1.png" />
     <Content Include="bin\Debug\sound\ruta1.wav" />
+    <Content Include="iconoIngles.ico" />
+    <Content Include="sound\audio2.wav" />
+    <Content Include="sound\audio3.wav" />
+    <Content Include="sound\audio4.wav" />
+    <Content Include="sound\audio5.wav" />
+    <Content Include="sound\correctaForm13.wav" />
+    <Content Include="sound\correctaForm8.wav" />
     <Content Include="sound\ruta1.wav" />
     <None Include="bin\Debug\img\bocina1.jpg" />
     <None Include="bin\Debug\img\bocina.jpg" />

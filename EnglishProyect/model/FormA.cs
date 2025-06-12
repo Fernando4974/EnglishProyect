@@ -15,7 +15,7 @@ namespace EnglishProyect.view
 {
     public class FormA : Form
     {
-
+       
         static controller.CapturaDeRespuestas capturaGlobal = new controller.CapturaDeRespuestas();
 
         protected Button botonComunChange;
@@ -27,20 +27,21 @@ namespace EnglishProyect.view
 
         //-----------------------------NICOLAS---------------------------------AUDIOS
 
-        static string ruta1 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
+        static string ruta1 = Path.Combine(Application.StartupPath, "sound", "audio2.wav");
         SoundPlayer SoundPlayer_1 = new SoundPlayer(ruta1);
-        static string ruta2 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
-        SoundPlayer SoundPlayer_2 = new SoundPlayer(ruta1);
-        static string ruta3 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
-        SoundPlayer SoundPlayer_3 = new SoundPlayer(ruta1);
-        static string ruta4 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
-        SoundPlayer SoundPlayer_4 = new SoundPlayer(ruta1);
-        static string ruta5 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
-        SoundPlayer SoundPlayer_5 = new SoundPlayer(ruta1);
-        static string ruta6 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
-        SoundPlayer SoundPlayer_6 = new SoundPlayer(ruta1);
+        static string ruta2 = Path.Combine(Application.StartupPath, "sound", "correctaForm8.wav");
+        SoundPlayer SoundPlayer_2 = new SoundPlayer(ruta2);
+        static string ruta3 = Path.Combine(Application.StartupPath, "sound", "correctaForm13.wav");
+        SoundPlayer SoundPlayer_3 = new SoundPlayer(ruta3);
+        static string ruta4 = Path.Combine(Application.StartupPath, "sound", "audio3.wav");
+        SoundPlayer SoundPlayer_4 = new SoundPlayer(ruta4);
+        static string ruta5 = Path.Combine(Application.StartupPath, "sound", "audio4.wav");
+        SoundPlayer SoundPlayer_5 = new SoundPlayer(ruta5);
+        static string ruta6 = Path.Combine(Application.StartupPath, "sound", "audio5.wav");
+        SoundPlayer SoundPlayer_6 = new SoundPlayer(ruta6);
         public FormA()
         {
+            this.Text = " On The Way To Your Exam";
           
            // string ruta = Path.Combine(Application.StartupPath, "img", "back_5.jpg");
             //this.BackgroundImage = Image.FromFile(ruta);
@@ -89,7 +90,7 @@ namespace EnglishProyect.view
             //etiquetaComun.Size = new System.Drawing.Size(332, 70);
             etiquetaContexto.ForeColor = Color.White;
             this.Controls.Add(etiquetaContexto);
-
+            this.Text = " On The Way To Your Exam";
             //Panel de foto
 
             panel = new Panel();
@@ -167,6 +168,18 @@ namespace EnglishProyect.view
         public void PlayBtn3()
         {
             SoundPlayer_3.Play();
+        }
+        public void PlayBtn4()
+        {
+            SoundPlayer_4.Play();
+        }
+        public void PlayBtn5()
+        {
+            SoundPlayer_5.Play();
+        }
+        public void PlayBtn6()
+        {
+            SoundPlayer_6.Play();
         }
 
         private void FormA_Load_1(object sender, EventArgs e)

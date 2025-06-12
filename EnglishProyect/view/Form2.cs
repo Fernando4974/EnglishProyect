@@ -116,6 +116,7 @@ namespace EnglishProyect.view
 
         private void btnStart_Click(object sender, EventArgs e)
         {
+            cont = 0;
             Form form3 = new view.Form3();
             form3.Show();
             this.Close();

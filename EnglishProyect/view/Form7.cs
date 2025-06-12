@@ -13,7 +13,7 @@ namespace EnglishProyect.view
 {
     public partial class Form7 : FormA
     {
-        public bool respuesta= false;
+        public bool respuesta;
         public Form7()
         {
             InitializeComponent();
@@ -71,6 +71,9 @@ namespace EnglishProyect.view
             button1.Visible = false;
         }
 
-       
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            lblDebug.Text=respuesta.ToString();
+        }
     }
 }

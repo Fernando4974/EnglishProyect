@@ -27,7 +27,7 @@ namespace EnglishProyect.view
         private void button1_Click(object sender, EventArgs e)
         {
             PlayBtn1();
-            respuesta = true;
+            respuesta = false;
             foreach (Control control in this.Controls)
             {
                 if (control is Button button)
@@ -42,6 +42,7 @@ namespace EnglishProyect.view
         }
         private void button5_Click(object sender, EventArgs e)
         {
+            PlayBtn6();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -58,7 +59,8 @@ namespace EnglishProyect.view
 
         private void button6_Click(object sender, EventArgs e)
         {
-            respuesta = false;
+            PlayBtn2();
+            respuesta = true;
             foreach (Control control in this.Controls)
             {
                 if (control is Button button)
@@ -74,6 +76,7 @@ namespace EnglishProyect.view
 
         private void button4_Click(object sender, EventArgs e)
         {
+            PlayBtn5();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -90,6 +93,7 @@ namespace EnglishProyect.view
 
         private void button2_Click(object sender, EventArgs e)
         {
+            PlayBtn4();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -106,7 +110,8 @@ namespace EnglishProyect.view
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {
+        {   
+            PlayBtn3();
             respuesta = false;
             foreach (Control control in this.Controls)
             {
@@ -156,6 +161,11 @@ namespace EnglishProyect.view
         private void etiquetaContexto_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            //lblDebug.Text = respuesta.ToString();
         }
     }
 }

@@ -13,6 +13,10 @@ namespace EnglishProyect.view
 {
     public partial class Form11 : FormA
     {
+        bool respuesta;
+
+        string r1;
+        string r2;
         public Form11()
         {
             InitializeComponent();
@@ -29,9 +33,9 @@ namespace EnglishProyect.view
         private void botonComun_Click(object sender, EventArgs e)
         {
             //aca validas textos
-            bool respuesta = false;
-            string r1 = this.comboBox1.Text.ToLower();
-            string r2 = this.comboBox2.Text.ToLower();
+           
+             r1 = this.comboBox1.Text.ToLower();
+             r2 = this.comboBox2.Text.ToLower();
             // string r3 = this.comboBox1.Text.ToLower();
             if (r1 == "goes" && r2 == "helps")
             {
@@ -61,6 +65,16 @@ namespace EnglishProyect.view
             comboBox1.ResetText();
             comboBox2.ResetText();
             botonComun.Visible = false;
+        }
+
+        private void btnDebug_Click(object sender, EventArgs e)
+        {
+            lblDebug.Text=r1.ToString()+r2.ToString();
+        }
+
+        private void lblDebug_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
