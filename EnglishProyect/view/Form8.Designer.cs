@@ -47,9 +47,9 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(717, 348);
-            this.etiquetaContexto.Text = "Another colleague on the bus\r\nasks him: “What will you do\r\nif the exam is too har" +
-    "d?”\r\n\r\nChoose the audio that correctly\r\nanswers: “I will do my best.”";
+            this.etiquetaContexto.Size = new System.Drawing.Size(578, 276);
+            this.etiquetaContexto.Text = "Another class mate on the bus\r\nasks him: “What will you do\r\nif the exam is too ha" +
+    "rd?”\r\n\r\nChoose the audio that correctly\r\nanswers: “I will do my best.”";
             this.etiquetaContexto.Click += new System.EventHandler(this.etiquetaContexto_Click);
             // 
             // panel
@@ -128,7 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1901, 1033);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

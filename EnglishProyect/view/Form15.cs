@@ -32,7 +32,12 @@ namespace EnglishProyect.view
 
         private void panel_Paint(object sender, PaintEventArgs e)
         {
-
+            MessageBox.Show(
+                "¡Atención!\n\nA partir de este momento iniciarás el examen.\nLee cuidadosamente cada pregunta y selecciona la respuesta correcta.\nRecuerda que esta es tu oportunidad para demostrar lo aprendido.\n\n¡Mucho éxito!",
+                "Inicio del Examen",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Information
+            );
         }
 
         private void button4_Click(object sender, EventArgs e)
