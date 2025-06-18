@@ -27,7 +27,7 @@ namespace EnglishProyect.view
 
         //-----------------------------NICOLAS---------------------------------AUDIOS
 
-        static string ruta1 = Path.Combine(Application.StartupPath, "sound", "audio2.wav");
+        static string ruta1 = Path.Combine(Application.StartupPath, "sound", "ruta1.wav");
         SoundPlayer SoundPlayer_1 = new SoundPlayer(ruta1);
         static string ruta2 = Path.Combine(Application.StartupPath, "sound", "correctaForm8.wav");
         SoundPlayer SoundPlayer_2 = new SoundPlayer(ruta2);

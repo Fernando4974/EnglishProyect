@@ -28,9 +28,10 @@ namespace EnglishProyect.view
         private void Form15_Load(object sender, EventArgs e)
         {
             button4.Visible = false;
+            mensaje();
         }
 
-        private void panel_Paint(object sender, PaintEventArgs e)
+        private void mensaje()
         {
             MessageBox.Show(
                 "¡Atención!\n\nA partir de este momento iniciarás el examen.\nLee cuidadosamente cada pregunta y selecciona la respuesta correcta.\nRecuerda que esta es tu oportunidad para demostrar lo aprendido.\n\n¡Mucho éxito!",
@@ -38,6 +39,11 @@ namespace EnglishProyect.view
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information
             );
+        }
+
+        private void panel_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
 
         private void button4_Click(object sender, EventArgs e)
