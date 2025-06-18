@@ -49,7 +49,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(854, 348);
+            this.etiquetaContexto.Size = new System.Drawing.Size(686, 276);
             this.etiquetaContexto.Text = "A friend who is on the bus with\r\nhim asks what he studied last night.\r\n\r\nFriend: " +
     "What did he study last night?\r\n\r\nAnswers using the past simple";
             // 
@@ -99,7 +99,7 @@
             this.lblDebug.AutoSize = true;
             this.lblDebug.Location = new System.Drawing.Point(323, 640);
             this.lblDebug.Name = "lblDebug";
-            this.lblDebug.Size = new System.Drawing.Size(11, 16);
+            this.lblDebug.Size = new System.Drawing.Size(10, 13);
             this.lblDebug.TabIndex = 15;
             this.lblDebug.Text = "-";
             this.lblDebug.Visible = false;
@@ -115,6 +115,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form7";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.Form7_Load);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);

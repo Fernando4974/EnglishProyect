@@ -43,7 +43,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(798, 174);
+            this.etiquetaContexto.Size = new System.Drawing.Size(642, 138);
             this.etiquetaContexto.Text = "You enter the room and sit at the\r\nfront. Which option best describes\r\nyour curre" +
     "nt situation?";
             // 
@@ -98,7 +98,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form12";
-            //  this.Text = "Form12";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.Form12_Load);
             this.Controls.SetChildIndex(this.botonComunChange, 0);
             this.Controls.SetChildIndex(this.panel, 0);

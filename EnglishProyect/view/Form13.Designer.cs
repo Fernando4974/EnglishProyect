@@ -47,7 +47,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(887, 232);
+            this.etiquetaContexto.Size = new System.Drawing.Size(718, 184);
             this.etiquetaContexto.Text = "you take your lucky pencil out of your \r\npurse and exclaim to yourself:\r\n\r\n\"I bro" +
     "ught my lucky pencil\".";
             // 
@@ -135,7 +135,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form13";
-            //  this.Text = "Form13";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.Form13_Load);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);

@@ -48,7 +48,7 @@
             // 
             // etiquetaContexto
             // 
-            this.etiquetaContexto.Size = new System.Drawing.Size(766, 116);
+            this.etiquetaContexto.Size = new System.Drawing.Size(618, 92);
             this.etiquetaContexto.Text = "You look at the time, see you\'re \r\nrunning late and decide to run.";
             // 
             // panel
@@ -119,7 +119,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(80, 362);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 40);
+            this.label1.Size = new System.Drawing.Size(37, 31);
             this.label1.TabIndex = 11;
             this.label1.Text = "- ";
             // 
@@ -128,7 +128,7 @@
             this.lblDebug.AutoSize = true;
             this.lblDebug.Location = new System.Drawing.Point(302, 555);
             this.lblDebug.Name = "lblDebug";
-            this.lblDebug.Size = new System.Drawing.Size(11, 16);
+            this.lblDebug.Size = new System.Drawing.Size(10, 13);
             this.lblDebug.TabIndex = 17;
             this.lblDebug.Text = "-";
             this.lblDebug.Visible = false;
@@ -158,6 +158,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form10";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.Form10_Load);
             this.Controls.SetChildIndex(this.panel, 0);
             this.Controls.SetChildIndex(this.etiquetaContexto, 0);
