@@ -39,7 +39,7 @@
             // botonComunChange
             // 
             this.botonComunChange.Location = new System.Drawing.Point(32, 729);
-            this.botonComunChange.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.botonComunChange.Margin = new System.Windows.Forms.Padding(2);
             this.botonComunChange.Click += new System.EventHandler(this.botonComunChange_Click);
             // 
             // botonComun
@@ -67,7 +67,7 @@
             "are ringing",
             "is ring"});
             this.comboBox1.Location = new System.Drawing.Point(166, 473);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(162, 36);
             this.comboBox1.TabIndex = 1;
@@ -82,7 +82,7 @@
             "wake up",
             "am wake"});
             this.comboBox2.Location = new System.Drawing.Point(437, 472);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(162, 36);
             this.comboBox2.TabIndex = 2;
@@ -152,9 +152,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form4";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             this.Load += new System.EventHandler(this.Form4_Load);
             this.Controls.SetChildIndex(this.botonComunChange, 0);
             this.Controls.SetChildIndex(this.panel, 0);

@@ -44,7 +44,7 @@
             this.panel1.BackgroundImage = global::EnglishProyect.Properties.Resources.img0;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(734, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(770, 838);
             this.panel1.TabIndex = 0;
@@ -79,7 +79,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(53, 291);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(597, 46);
             this.button1.TabIndex = 3;
@@ -91,7 +91,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(53, 367);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(597, 46);
             this.button2.TabIndex = 4;
@@ -103,7 +103,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(53, 445);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(597, 46);
             this.button3.TabIndex = 5;
@@ -117,7 +117,7 @@
             this.btnNextQuery.Enabled = false;
             this.btnNextQuery.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNextQuery.Location = new System.Drawing.Point(358, 714);
-            this.btnNextQuery.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNextQuery.Margin = new System.Windows.Forms.Padding(2);
             this.btnNextQuery.Name = "btnNextQuery";
             this.btnNextQuery.Size = new System.Drawing.Size(332, 70);
             this.btnNextQuery.TabIndex = 6;
@@ -131,7 +131,7 @@
             this.button4.Font = new System.Drawing.Font("MV Boli", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(11, 714);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(332, 70);
             this.button4.TabIndex = 7;
@@ -156,7 +156,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EnglishProyect.Properties.Resources.back_5;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1426, 839);
+            this.ClientSize = new System.Drawing.Size(1457, 839);
             this.Controls.Add(this.lblDebug);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btnNextQuery);
@@ -166,11 +166,10 @@
             this.Controls.Add(this.lblQuery);
             this.Controls.Add(this.lblStage1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
